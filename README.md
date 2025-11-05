@@ -1,50 +1,93 @@
 # Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 🎬 Movie App
 
-## Get started
+A cross-platform movie discovery application built with React Native, TypeScript, and NativeWind (Tailwind CSS) during my internship at YoungDev Intern.
 
-1. Install dependencies
+## 📱 Overview
 
-   ```bash
-   npm install
-   ```
+This mobile application seamlessly integrates with the TMDB (The Movie Database) API to deliver dynamic, real-time content. Users can search for movies, browse trending titles, and view detailed information including posters, ratings, release dates, and summaries.
 
-2. Start the app
+## ✨ Features
 
-   ```bash
-   npx expo start
-   ```
+- **Movie Search**: Search for any movie in the extensive TMDB database
+- **Trending Movies**: Browse the latest trending titles
+- **Detailed Information**: View comprehensive movie details including:
+  - High-quality posters
+  - User ratings
+  - Release dates
+  - Plot summaries
+- **Cross-Platform**: Runs smoothly on both iOS and Android devices
+- **Responsive UI**: Clean, user-friendly interface optimized for various screen sizes
 
-In the output, you'll find options to open the app in a
+## 🛠️ Technologies Used
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native**: Cross-platform mobile development framework
+- **TypeScript**: Type-safe JavaScript for better code quality
+- **NativeWind**: Tailwind CSS for React Native styling
+- **TMDB API**: Real-time movie data integration
+- **RESTful API**: Efficient data fetching and management
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🏗️ Technical Highlights
 
-## Get a fresh project
+- Implemented reusable component architecture for maintainability
+- Optimized API calls for smooth navigation and performance
+- Focused on responsive design principles
+- Type-safe development with TypeScript
+- Clean code practices and professional standards
 
-When you're ready, run:
+## 📦 Installation
 
 ```bash
-npm run reset-project
+# Clone the repository
+git clone https://github.com/yourusername/movie-app
+
+# Navigate to project directory
+cd movie-app
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Run on iOS
+npm run ios
+# or
+yarn ios
+
+# Run on Android
+npm run android
+# or
+yarn android
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🔑 API Setup
 
-## Learn more
+1. Get your API key from [TMDB](https://www.themoviedb.org/settings/api)
+2. Create a `.env` file in the root directory
+3. Add your API key:
+   ```
+   TMDB_API_KEY=your_api_key_here
+   ```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🎯 Learning Outcomes
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This project strengthened my expertise in:
+- React Native development
+- RESTful API integration
+- TypeScript implementation
+- UI/UX design principles
+- Professional development environment collaboration
 
-## Join the community
+## 🔗 Links
 
-Join our community of developers creating universal apps.
+**GitHub Repository**: [https://github.com/ZainabAbbas540/YoungDevInterns_reactnative_Movie_App]
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📫 Contact
+
+**Email**: zainab.abbas.3495@gmail.com  
+**LinkedIn**: [Zainab Abbas](https://www.linkedin.com/in/zainab2006/)
+
+---
+
+*Developed as part of YoungDev Intern internship program*
